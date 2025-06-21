@@ -1,0 +1,16 @@
+List comprehension:
+creating new list from prev list
+primitively we loop thru to add or perform any operation on the list but in python we can do that in just one step
+basically wht i learned in py ob, making loop code in one line
+
+new = [n+1 for n in list]
+
+conditional list comprehension
+adding condition after the for operation
+
+List comprehension in dictionary
+new_dict = {new_key:new_value for (key,value) in dict.item() if test}
+
+using this in panda dataframe
+
+
